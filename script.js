@@ -12,6 +12,9 @@ a2 = document.getElementById("sound_grown")
 a3 = document.getElementById("sound_water")
 a4 = document.getElementById("sound_happy")
 
+// array
+quote = [a1,a2,a3,a4];
+
 function stopSound () {
 	a1.classList.pause();
 	a2.classList.pause();
