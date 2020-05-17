@@ -6,6 +6,20 @@
 
 // This function is being reused
 // We need the "elem" because the function changes the div when clicked on.		`
+// variables
+a1 = document.getElementById("sound_jill")
+a2 = document.getElementById("sound_grown")
+a3 = document.getElementById("sound_water")
+a4 = document.getElementById("sound_happy")
+// array
+quote = [a1,a2,a3,a4]
+
+function stopSound () {
+	a1.classList.pause();
+	a2.classList.pause();
+	a3.classList.pause();
+	a4.classList.pause();
+}
 
 function grown(el){
 	if (el.src.match ("images/grown_photo.PNG")){
@@ -53,13 +67,6 @@ function happyg(el){
 	} else if (el.src.match ("images/water_pic3.jpg")){
 		el.src = "images/water_photo.jpg";
 	}
-}
-
-function stopSound () {
-	document.getElementById("sound_jill").pause();
-	document.getElementById("sound_grown").pause();
-	document.getElementById("sound_water").pause();
-	document.getElementById("sound_happy").pause();
 }
 
 function jill(){
