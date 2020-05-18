@@ -16,10 +16,10 @@ a4 = document.getElementById("sound_happy")
 quote = [a1,a2,a3,a4];
 
 function stopSound () {
-	a1.classList.pause();
-	a2.classList.pause();
-	a3.classList.pause();
-	a4.classList.pause();
+	a1.pause();
+	a2.pause();
+	a3.pause();
+	a4.pause();
 	
 	console.log("Reset");
 }
