@@ -11,6 +11,10 @@ a1 = document.getElementById("sound_jill")
 a2 = document.getElementById("sound_grown")
 a3 = document.getElementById("sound_water")
 a4 = document.getElementById("sound_happy")
+b1 = document.getElementById("jill_quote")
+b2 = document.getElementById("grownup")
+b3 = document.getElementById("waterboy")
+b4 = document.getElementById("happygill")
 
 // array
 quote = [a1,a2,a3,a4];
@@ -71,23 +75,25 @@ function happyg(el){
 }
 
 function jill(){
-	document.getElementById("jill_quote").classList.remove("hide");
+	b1.classList.remove("hide");
 	stopSound();
 	a1.play();
 }
-function happy(){
-	document.getElementById("happygill").classList.remove("hide");
-	stopSound();
-	document.getElementById("sound_happy").play();
-}
-function boy(){
-	document.getElementById("waterboy").classList.remove("hide");
-	stopSound();
-	document.getElementById("sound_water").play();
-}
+
 function up(){
-	document.getElementById("grownup").classList.remove("hide");
+	b2.classList.remove("hide");
 	stopSound();
-	document.getElementById("sound_grown").play();
+	a2.play();
 }
 
+function boy(){
+	b3.classList.remove("hide");
+	stopSound();
+	a3.play();
+}
+
+function happy(){
+	b4.classList.remove("hide");
+	stopSound();
+	a4.play();
+}
