@@ -25,7 +25,7 @@ function stopSound () {
 function grown(el){
 	if (el.src.match ("images/grown_photo.PNG")){
 		el.src ="images/grown_pic1.jpg";
-	} else if (el.src.match("images/grown_pic1.jpg")){
+	} else if (el.src.match("images/grown_pic1.png")){
 		el.src = "images/grown_pic3.jpg";
 	} else if (el.src.match ("images/grown_pic3.jpg")){
 		el.src = "images/grown_pic4.jpg";
