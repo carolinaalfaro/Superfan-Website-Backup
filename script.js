@@ -16,9 +16,6 @@ b2 = document.getElementById("grownup")
 b3 = document.getElementById("waterboy")
 b4 = document.getElementById("happygill")
 
-// array
-quote = [a1,a2,a3,a4];
-
 function stopSound () {
 	a1.pause();
 	a2.pause();
