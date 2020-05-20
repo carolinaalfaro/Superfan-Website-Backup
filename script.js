@@ -20,8 +20,6 @@ function stopSound () {
 	a2.pause();
 	a3.pause();
 	a4.pause();
-	
-	console.log("Reset");
 }
 
 function grown(el){
