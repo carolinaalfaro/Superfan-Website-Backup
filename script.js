@@ -1,11 +1,3 @@
-// JavaScript is capitalized using "camel case": https://en.wikipedia.org/wiki/Camel_case
-
-// Once you've identified the elements you want to change, you can use the "classList" (to change classes):
-// classList = https://www.w3schools.com/jsref/prop_element_classlist.asp
-// document.getElementById("").classList.remove("");
-
-// This function is being reused
-// We need the "elem" because the function changes the div when clicked on.		`
 // variables
 a1 = document.getElementById("sound_jill")
 a2 = document.getElementById("sound_grown")
