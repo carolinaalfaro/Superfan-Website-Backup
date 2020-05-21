@@ -104,9 +104,6 @@ p {
 #test {
 	filter:drop-shadow(8px 8px 10px gray);
 }
-img:hover {
-  filter: grayscale(0%);
-}
 
 /* colors */
 .dark-grey {background-color: #D3D3D3;}
