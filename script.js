@@ -16,13 +16,6 @@ b2 = document.getElementById("grownup")
 b3 = document.getElementById("waterboy")
 b4 = document.getElementById("happygill")
 
-function stopSound () {
-	a1.pause();
-	a2.pause();
-	a3.pause();
-	a4.pause();
-}
-
 function grown(el){
 	if (el.src.match ("images/grown_photo.PNG")){
 		el.src ="images/grown_pic1.jpg";
@@ -71,6 +64,7 @@ function happyg(el){
 	}
 }
 
+// parent algorithm
 function jill(){
 	b1.classList.remove("hide");
 	stopSound();
@@ -93,4 +87,12 @@ function happy(){
 	b4.classList.remove("hide");
 	stopSound();
 	a4.play();
+}
+
+// child algorithm
+function stopSound () {
+	a1.pause();
+	a2.pause();
+	a3.pause();
+	a4.pause();
 }
